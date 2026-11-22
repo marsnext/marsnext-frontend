@@ -75,6 +75,22 @@ button { font: inherit; color: inherit; }
   letter-spacing: -0.02em;
   font-size: 15.5px;
 }
+.brand-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--border-strong);
+  object-fit: cover;
+}
+.hero-logo {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: block;
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 0 0 8px var(--accent-soft), 0 14px 36px rgba(0, 0, 0, 0.35);
+}
 .nav-right { display: flex; align-items: center; gap: 10px; }
 .pill-link {
   font-size: 13px;
